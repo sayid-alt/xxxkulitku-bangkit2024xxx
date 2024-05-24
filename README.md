@@ -1,5 +1,5 @@
 # Kulitku
-![](Machine%20Learning//logo.png)
+![](Machine%20Learning//kulitku_logo.png)
 
 
 # Our Design app
