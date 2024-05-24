@@ -1,6 +1,6 @@
 # Kulitku
 <div align="center">
-![](Machine%20Learning//kulitku_logo.png)
+ <img src="Machine%20Learning//kulitku_logo.png">
 </div>
 
 
