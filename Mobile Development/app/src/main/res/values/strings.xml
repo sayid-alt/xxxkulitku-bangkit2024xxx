@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyBottomNavigation</string>
+    <string name="app_name">Kulitku</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_home">Home</string>
@@ -8,4 +8,44 @@
     <string name="title_history">History</string>
     <string name="title_profile">Profile</string>
 
+    <string name="kulitku_logo">Kulitku Logo</string>
+
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="please_login">Please login to your account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="or">OR</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="google_icon">Google Icon</string>
+    <string name="show_password_icon">Show Password Icon</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+
+    <string name="create_new_account">Create a new account</string>
+    <string name="name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="have_account">Already have an account?</string>
+
+    <!-- Error Messages -->
+    <string name="name_empty_error">Name cannot be empty</string>
+    <string name="email_empty_error">Email cannot be empty</string>
+    <string name="email_invalid_error">Please enter a valid email address</string>
+    <string name="password_empty_error">Password cannot be empty</string>
+    <string name="password_invalid_error">Password must be at least 8 characters</string>
+    <string name="confirm_password_empty_error">Confirm Password cannot be empty</string>
+    <string name="password_mismatch_error">Password and Confirm Password do not match</string>
+
+    <string name="password_not_match">Password not match</string>
+    <string name="incorrect_email_format">Incorrect email format</string>
+    <string name="email_taken">Email is already registered</string>
+    <string name="password_less">Password must be at least 8 characters</string>
+    <string name="empty_name">Name cannot be empty</string>
+    <string name="article_image">Image Article</string>
+    <string name="article_description">Article Description</string>
+    <string name="article_title">Article Title</string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="history">History</string>
+    <string name="timestamp">07 Mei 2024 | 13:00</string>
 </resources>

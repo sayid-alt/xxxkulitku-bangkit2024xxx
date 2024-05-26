@@ -1,12 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.MyBottomNavigation" parent="Theme.MaterialComponents.Light.DarkActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.Kulitku" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/terracotta</item>
+        <item name="colorPrimaryVariant">@color/coral</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/terracotta</item>
     </style>
 
-    <style name="Theme.MyBottomNavigation" parent="Base.Theme.MyBottomNavigation" />
-    <style name="Base.Theme.MyBottomNavigation.NoActionBar">
+    <style name="Theme.Kulitku" parent="Base.Theme.Kulitku" />
+    <style name="Base.Theme.Kulitku.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
