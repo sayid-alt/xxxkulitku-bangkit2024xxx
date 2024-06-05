@@ -14,7 +14,11 @@
         android:id="@+id/navigation_article"
         android:name="com.dicoding.kulitku.fragment.ArticleFragment"
         android:label="@string/title_article"
-        tools:layout="@layout/fragment_article" />
+        tools:layout="@layout/fragment_article">
+        <action
+            android:id="@id/navigation_detail_article"
+            app:destination="@id/navigation_detail_article"/>
+    </fragment>
     <fragment
         android:id="@+id/navigation_scan"
         android:name="com.dicoding.kulitku.fragment.ScanFragment"
@@ -30,4 +34,25 @@
         android:name="com.dicoding.kulitku.fragment.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_skin_information"
+        android:name="com.dicoding.kulitku.fragment.SkinInformationFragment"
+        tools:layout="@layout/fragment_skin_information">
+        <action
+            android:id="@id/navigation_detail_skin_information"
+            app:destination="@id/navigation_detail_skin_information"/>
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/navigation_detail_article"
+        android:name="com.dicoding.kulitku.fragment.DetailArticleFragment"
+        tools:layout="@layout/fragment_detail_article"/>
+
+    <fragment
+        android:id="@+id/navigation_detail_skin_information"
+        android:name="com.dicoding.kulitku.fragment.DetailSkinInformationFragment"
+        tools:layout="@layout/fragment_detail_information"/>
 </navigation>

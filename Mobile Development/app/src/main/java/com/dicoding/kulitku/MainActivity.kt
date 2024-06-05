@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.hide()
+
         val bottomNavigation: BottomNavigationView = binding.bottomNavigation
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
@@ -26,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             setOf(
                 R.id.navigation_home,
                 R.id.navigation_article,
-                R.id.navigation_scan, // Make sure IDs match the navigation graph
+                R.id.navigation_scan,
                 R.id.navigation_history,
                 R.id.navigation_profile
             )
