@@ -7,15 +7,15 @@
         android:color="@color/terracotta"/>
 
     <corners
-        android:radius="10dp" />
+        android:radius="8dp" />
 
     <solid
         android:color="@color/white" />
 
     <padding
-        android:left="16dp"
-        android:top="16dp"
+        android:left="8dp"
+        android:top="8dp"
         android:right="16dp"
-        android:bottom="16dp" />
+        android:bottom="8dp" />
 
 </shape>
